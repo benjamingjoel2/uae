@@ -1,0 +1,16 @@
+{
+  "name": "barjeel-journeys",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Barjeel Journeys: static, multilingual travel site for the seven emirates of the UAE.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "images": "node scripts/images.mjs",
+    "fonts": "node scripts/fonts.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": {}
+}
