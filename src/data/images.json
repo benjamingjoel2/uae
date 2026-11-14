@@ -578,5 +578,105 @@
       "place": "Beach near Snoopy Island, Dibba coast, Fujairah",
       "attribution": true
     }
+  },
+  "hatta-hero": {
+    "w": 1200,
+    "h": 675,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "A view of the Hatta Mountains in Hatta Dam",
+      "author": "Chuck202",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Hatta_Mountains_in_Hatta_Dam.jpg",
+      "place": "Hatta Dam, Hatta, Dubai",
+      "attribution": true
+    }
+  },
+  "hatta-village": {
+    "w": 1200,
+    "h": 793,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Hatta Heritage Village",
+      "author": "CultureArts",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hatta_Heritage_Village.jpg",
+      "place": "Hatta Heritage Village, Hatta, Dubai",
+      "attribution": true
+    }
+  },
+  "sbi-hero": {
+    "w": 1200,
+    "h": 416,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Sir Bani Yas Island Panorama",
+      "author": "Ismail.alghussein",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sir_Bani_Yas_Island_Panorama.jpg",
+      "place": "Sir Bani Yas Island, Abu Dhabi",
+      "attribution": true
+    }
+  },
+  "sbi-wildlife": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Sir Bani Yas -Arabisk oryx",
+      "author": "Losttraveller",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sir_Bani_Yas_-Arabisk_oryx.JPG",
+      "place": "Arabian oryx on Sir Bani Yas Island, Abu Dhabi",
+      "attribution": true
+    }
+  },
+  "stays-desert": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Desert ripples (4184941765)",
+      "author": "Peter Dowley from Dubai, United Arab Emirates",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Desert_ripples_(4184941765).jpg",
+      "place": "Dunes of Liwa Oasis, Abu Dhabi",
+      "attribution": true
+    }
   }
 }
