@@ -166,6 +166,7 @@ a:hover .ph img, a:focus-visible .ph img { transform: scale(1.035); }
 .pan__dusk { opacity: 0; }
 .pan__dusk .hero__txt, .pan__dawn .hero__txt { z-index: 2; }
 .pan__layer::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,18,15,.14) 0%, rgba(20,18,15,0) 35%, rgba(20,18,15,.55) 100%); }
+.pan__dawn .hero__title { max-width: 19ch; }
 .pan__dusk-title { font-size: var(--fs-h1); text-transform: uppercase; line-height: .9; max-width: 13ch; }
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
