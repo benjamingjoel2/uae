@@ -113,7 +113,7 @@ export default {
 
   home: {
     heroEyebrow: 'The seven emirates',
-    heroTitle: 'An older, cooler Emirates',
+    heroTitle: 'The Emirates in their finest light',
     heroLead: 'From the marble courts of the capital to the last light on the dunes. Private journeys through all seven emirates, timed to the months when the country opens its doors.',
     heroScroll: 'Scroll',
     duskEyebrow: 'Liwa, at the edge of the Empty Quarter',

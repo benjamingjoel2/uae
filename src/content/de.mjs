@@ -113,7 +113,7 @@ export default {
 
   home: {
     heroEyebrow: 'Die sieben Emirate',
-    heroTitle: 'Die Emirate – älter, stiller, kühler',
+    heroTitle: 'Die Emirate in ihrem schönsten Licht',
     heroLead: 'Von den Marmorhöfen der Hauptstadt bis zum letzten Licht auf den Dünen. Private Reisen durch alle sieben Emirate, abgestimmt auf die Monate, in denen das Land seine Türen öffnet.',
     heroScroll: 'Scrollen',
     duskEyebrow: 'Liwa, am Rand des Leeren Viertels',

@@ -113,7 +113,7 @@ export default {
 
   home: {
     heroEyebrow: 'Los siete emiratos',
-    heroTitle: 'Unos Emiratos más antiguos y más frescos',
+    heroTitle: 'Los Emiratos en su luz más bella',
     heroLead: 'De los patios de mármol de la capital a la última luz sobre las dunas. Viajes privados por los siete emiratos, en los meses en que el país abre sus puertas.',
     heroScroll: 'Desplazarse',
     duskEyebrow: 'Liwa, en el borde del Cuarto Vacío',
