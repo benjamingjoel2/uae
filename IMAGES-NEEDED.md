@@ -20,6 +20,7 @@ Never copy images from a venue's own website.
 | Island Camp | Sir Bani Yas panorama | Sir Bani Yas resort, from its press/media kit |
 
 ## Upgrades worth making (all current photos are acceptable)
+- **Home hero (`home-hero`, Qasr Al Watan main facade)**: supplied by the owner at 500 px and AI-upscaled to 2738×4096 (Higgsfield). If the original full-size photo turns up, replace it with `npm run images -- <folder> --force`.
 - **Sheikh Zayed Grand Mosque exterior (`abudhabi-hero`)**: the current shot is down the approach avenue, with the domes small in the frame. The mosque's media centre issues images for editorial and tourism use; request a full exterior.
 - **Louvre Abu Dhabi (`abudhabi-louvre`)**: the photo is CC BY-SA, but the UAE has no freedom-of-panorama exception, so the architect's rights may apply. Replace it with an image from the Louvre Abu Dhabi press office, or have it cleared.
 - **Same point for other modern buildings**, such as the Sharjah Art Foundation (`sharjah-museum`).
