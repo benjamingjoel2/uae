@@ -478,5 +478,105 @@
       "place": "Al Fahidi Historical Neighbourhood, Dubai",
       "attribution": true
     }
+  },
+  "rak-hero": {
+    "w": 1200,
+    "h": 675,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "A view from the road up Jebel Jais, Ras Al Khaimah",
+      "author": "Stevenmccombe",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_view_from_the_road_up_Jebel_Jais,_Ras_Al_Khaimah.jpg",
+      "place": "Jebel Jais road, Ras Al Khaimah",
+      "attribution": true
+    }
+  },
+  "rak-hamra": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Jazirat al Hamra building",
+      "author": "Slywire",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jazirat_al_Hamra_building.jpg",
+      "place": "Jazirat Al Hamra, Ras Al Khaimah",
+      "attribution": true
+    }
+  },
+  "fujairah-hero": {
+    "w": 1200,
+    "h": 896,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "2011-0209-Al Badiyah Mosque",
+      "author": "Bobak Ha'Eri",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2011-0209-Al_Badiyah_Mosque.jpg",
+      "place": "Al Badiyah Mosque, Fujairah",
+      "attribution": true
+    }
+  },
+  "fujairah-coast": {
+    "w": 1200,
+    "h": 406,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Bitnah fort Fujairah",
+      "author": "Jacobht",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bitnah_fort_Fujairah.jpg",
+      "place": "Fujairah Fort and the Hajar mountains",
+      "attribution": true
+    }
+  },
+  "stays-coast": {
+    "w": 1200,
+    "h": 675,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Al Aqah Beach, Fujairah, 2007 (04)",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Aqah_Beach,_Fujairah,_2007_(04).jpg",
+      "place": "Beach near Snoopy Island, Dibba coast, Fujairah",
+      "attribution": true
+    }
   }
 }
