@@ -376,7 +376,7 @@
   },
   "home-dusk": {
     "w": 1200,
-    "h": 800,
+    "h": 900,
     "widths": [
       480,
       800,
@@ -384,14 +384,14 @@
       1600,
       2000
     ],
-    "pos": "50% 50%",
+    "pos": "50% 70%",
     "credit": {
-      "title": "Desert - panoramio (5)",
-      "author": "Xiaotong Gao",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Desert_-_panoramio_(5).jpg",
-      "place": "Dunes of Liwa Oasis, Abu Dhabi",
+      "title": "Liwa Sunsets",
+      "author": "Almzo7e",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liwa_Sunsets.jpg",
+      "place": "Moreeb Dune, Liwa, Abu Dhabi",
       "attribution": true
     }
   },
