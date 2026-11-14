@@ -96,7 +96,7 @@ function header(loc, key, L, over) {
   const destKeys = places.map((p) => p.key);
   const menuImgs = [...destKeys.map((k) => [k, placeByKey[k].hero])];
   return `<a class="skip" href="#main">${esc(L.ui.skip)}</a>
-<header class="hd${over ? ' hd--over' : ''}">
+<header class="hd${over ? ' hd--over' : ''}${over === 'split' ? ' hd--split' : ''}">
   <button class="hd__menu" type="button" data-menu-open aria-controls="menu" aria-expanded="false" aria-label="${esc(L.ui.menu)}"><span class="hd__burger" aria-hidden="true"></span><span class="hd__menu-label" aria-hidden="true">${esc(L.ui.menu)}</span></button>
   <a class="hd__logo" href="${url(loc, 'home')}" aria-label="${t.p(L.ui.homeLabel)}">${towerSvg()}<span class="hd__word">${esc(config.brand.name)}</span></a>
   <nav aria-label="${esc(L.ui.languages)}">${langList(loc, key, L)}</nav>
@@ -198,16 +198,16 @@ function homePage(loc) {
   const L = content[loc], t = mkT(loc), H = L.home;
   const featImgs = ['liwa-oasis', 'journal-ramadan', 'fujairah-coast'];
   const body = `
-<section class="pan" data-hero aria-label="${t.p(H.heroTitle)}">
-  <div class="pan__stick">
-    <div class="pan__layer pan__dawn">${pic('home-hero', loc, { eager: true })}
-      <div class="hero__txt">${eyebrow(esc(H.heroEyebrow), 'الإمارات السبع')}<h1 class="hero__title">${t.h(H.heroTitle)}</h1>
-      <div class="hero__row"><p class="hero__lead">${t.h(H.heroLead)}</p><span class="hero__scroll" aria-hidden="true">${esc(H.heroScroll)}</span></div></div>
-    </div>
-    <div class="pan__layer pan__dusk">${pic('home-dusk', loc)}
-      <div class="hero__txt">${eyebrow(esc(H.duskEyebrow), 'الربع الخالي')}<h2 class="pan__dusk-title">${t.h(H.duskTitle)}</h2></div>
-    </div>
+<section class="hs" data-hero aria-label="${t.p(H.heroTitle)}">
+  <div class="hs__img">${pic('home-hero', loc, { eager: true, sizes: '(min-width: 900px) 58vw, 100vw' })}</div>
+  <div class="hs__panel">
+    <div class="hs__in">${eyebrow(esc(H.heroEyebrow), 'الإمارات السبع')}<h1 class="hs__t">${t.h(H.heroTitle)}</h1><p class="hs__lead">${t.h(H.heroLead)}</p><a class="btn" href="${url(loc, 'enquire')}">${esc(L.footer.cta)}</a></div>
   </div>
+</section>
+
+<section class="hero hero--dusk" aria-label="${t.p(H.duskTitle)}">
+  <div class="hero__img">${pic('home-dusk', loc)}</div>
+  <div class="hero__txt">${eyebrow(esc(H.duskEyebrow), 'الربع الخالي')}<h2 class="pan__dusk-title">${t.h(H.duskTitle)}</h2></div>
 </section>
 
 <section class="wrap sec">
@@ -268,7 +268,7 @@ ${dune()}
     ${L.journal.posts.map((p) => `<li><b><a href="${url(loc, 'journal')}#${p.key}" style="text-decoration:none">${t.h(p.title)}</a></b><span class="muted">${esc(p.date)}</span></li>`).join('')}
   </ul>
 </section>`;
-  return page({ loc, key: 'home', body, heroSlot: 'home-hero', over: true });
+  return page({ loc, key: 'home', body, heroSlot: 'home-hero', heroSizes: '(min-width: 900px) 58vw, 100vw', over: 'split' });
 }
 
 function placePage(loc, p, i) {
@@ -434,7 +434,7 @@ function staysPage(loc) {
 ${textHead(esc(S.eyebrow), t.h(S.title), t.h(S.lead), 'إقامات')}
 <section class="wrap sec" style="padding-top:0">
   <div class="stays">
-    ${S.list.map((s, i) => `<article class="card" data-reveal>${ph(s.img, loc, [0, 3].includes(i % 4) ? 'r-32' : 'r-45', { sizes: [0, 3].includes(i % 4) ? '(min-width: 900px) 66vw, 100vw' : '(min-width: 900px) 33vw, 100vw', altOverride: s.where })}<p class="card__ey">${esc(s.where)}</p><h2 class="card__t">${esc(s.name)}<span class="tag">${esc(S.placeholder)}</span></h2><p class="card__p">${t.h(s.text)}</p><p class="card__p"><strong>${priceLine(L, 'stay')}</strong></p></article>`).join('')}
+    ${S.list.map((s, i) => `<article class="card" data-reveal>${ph(s.img, loc, [0, 3].includes(i % 4) ? 'r-32' : 'r-45', { sizes: [0, 3].includes(i % 4) ? '(min-width: 900px) 66vw, 100vw' : '(min-width: 900px) 33vw, 100vw', altOverride: s.where })}<p class="card__ey">${esc(s.where)}</p><h2 class="card__t">${esc(s.name)}</h2><p class="card__p">${t.h(s.text)}</p><p class="card__p"><strong>${priceLine(L, 'stay')}</strong></p></article>`).join('')}
   </div>
   <p class="muted mt-l" style="font-size:var(--fs-small)">${t.h(S.priceNote)}</p>
 </section>`;
