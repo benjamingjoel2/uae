@@ -681,14 +681,17 @@
   },
   "home-hero": {
     "w": 1200,
-    "h": 1800,
+    "h": 1795,
     "widths": [
       480,
-      500
+      800,
+      1200,
+      1600,
+      2000
     ],
     "pos": "50% 62%",
     "credit": {
-      "title": "Qasr Al Watan main facade",
+      "title": "Qasr Al Watan main facade (AI-upscaled from the owner-supplied file)",
       "author": "Supplied by the site owner",
       "license": "Supplied by the site owner (no credit line required)",
       "license_url": "",
