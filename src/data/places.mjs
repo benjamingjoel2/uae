@@ -3,16 +3,16 @@
 // (minutes). They are planning guidance only — see FACTS-TO-VERIFY.md.
 
 export const places = [
-  { key: 'dubai', slug: 'dubai', ar: 'دبي', hero: 'dubai-hero', imgs: ['dubai-fahidi', 'dubai-souk', 'detail-windtower'], region: 'dubai', drive: { dubai: 0, abudhabi: 90 }, type: 'base' },
-  { key: 'abudhabi', slug: 'abu-dhabi', ar: 'أبوظبي', hero: 'abudhabi-hero', imgs: ['abudhabi-mosque-interior', 'abudhabi-hosn', 'abudhabi-louvre'], region: 'abudhabi', drive: { dubai: 90, abudhabi: 0 }, type: 'base' },
-  { key: 'alain', slug: 'al-ain', ar: 'العين', hero: 'alain-hero', imgs: ['alain-falaj', 'alain-hafeet', 'alain-fort'], region: 'alain', drive: { dubai: 90, abudhabi: 100 } },
-  { key: 'liwa', slug: 'liwa-empty-quarter', ar: 'ليوا والربع الخالي', hero: 'liwa-hero', imgs: ['liwa-oasis', 'home-dusk', 'stays-desert'], region: 'liwa', drive: { dubai: 225, abudhabi: 135 } },
-  { key: 'sharjah', slug: 'sharjah', ar: 'الشارقة', hero: 'sharjah-hero', imgs: ['sharjah-museum', 'detail-arish', 'detail-coffee'], region: 'dubai', drive: { dubai: 30, abudhabi: 120 } },
-  { key: 'rak', slug: 'ras-al-khaimah', ar: 'رأس الخيمة', hero: 'rak-hero', imgs: ['rak-hamra', 'stays-coast', 'rak-hero'], region: 'rak', drive: { dubai: 75, abudhabi: 160 } },
-  { key: 'fujairah', slug: 'fujairah-east-coast', ar: 'الفجيرة', hero: 'fujairah-hero', imgs: ['fujairah-coast', 'stays-coast', 'fujairah-hero'], region: 'fujairah', drive: { dubai: 100, abudhabi: 170 } },
-  { key: 'hatta', slug: 'hatta', ar: 'حتا', hero: 'hatta-hero', imgs: ['hatta-village', 'hatta-hero', 'detail-arish'], region: 'hatta', drive: { dubai: 80, abudhabi: 150 } },
-  { key: 'ajman', slug: 'ajman-umm-al-quwain', ar: 'عجمان وأم القيوين', hero: 'ajman-hero', imgs: ['uaq-lagoon', 'ajman-hero', 'uaq-lagoon'], region: 'dubai', drive: { dubai: 45, abudhabi: 135 } },
-  { key: 'sbi', slug: 'sir-bani-yas', ar: 'جزيرة صير بني ياس', hero: 'sbi-hero', imgs: ['sbi-wildlife', 'sbi-hero', 'sbi-wildlife'], region: 'abudhabi', drive: { dubai: 230, abudhabi: 150 } },
+  { key: 'dubai', slug: 'dubai', ar: 'دبي', hero: 'dubai-hero', split: 'detail-windtower', hl: ['dubai-fahidi', 'dubai-hero', 'dubai-souk'], region: 'dubai', drive: { dubai: 0, abudhabi: 90 }, type: 'base' },
+  { key: 'abudhabi', slug: 'abu-dhabi', ar: 'أبوظبي', hero: 'abudhabi-hero', split: null, hl: ['abudhabi-mosque-interior', 'abudhabi-hosn', 'abudhabi-louvre'], region: 'abudhabi', drive: { dubai: 90, abudhabi: 0 }, type: 'base' },
+  { key: 'alain', slug: 'al-ain', ar: 'العين', hero: 'alain-hero', split: null, hl: ['alain-falaj', 'alain-hafeet', 'alain-fort'], region: 'alain', drive: { dubai: 90, abudhabi: 100 } },
+  { key: 'liwa', slug: 'liwa-empty-quarter', ar: 'ليوا والربع الخالي', hero: 'liwa-hero', split: null, hl: ['home-dusk', 'liwa-oasis', 'stays-desert'], region: 'liwa', drive: { dubai: 225, abudhabi: 135 } },
+  { key: 'sharjah', slug: 'sharjah', ar: 'الشارقة', hero: 'sharjah-hero', split: null, hl: ['sharjah-hero', 'journal-ramadan', 'sharjah-museum'], region: 'dubai', drive: { dubai: 30, abudhabi: 120 } },
+  { key: 'rak', slug: 'ras-al-khaimah', ar: 'رأس الخيمة', hero: 'rak-hero', split: null, hl: ['rak-hero', 'rak-hamra', 'stays-coast'], region: 'rak', drive: { dubai: 75, abudhabi: 160 } },
+  { key: 'fujairah', slug: 'fujairah-east-coast', ar: 'الفجيرة', hero: 'fujairah-hero', split: null, hl: ['fujairah-hero', 'fujairah-coast', 'stays-coast'], region: 'fujairah', drive: { dubai: 100, abudhabi: 170 } },
+  { key: 'hatta', slug: 'hatta', ar: 'حتا', hero: 'hatta-hero', split: null, hl: ['hatta-hero', 'hatta-village', 'hatta-hero'], region: 'hatta', drive: { dubai: 80, abudhabi: 150 } },
+  { key: 'ajman', slug: 'ajman-umm-al-quwain', ar: 'عجمان وأم القيوين', hero: 'ajman-hero', split: null, hl: ['ajman-hero', 'uaq-lagoon', 'uaq-lagoon'], region: 'dubai', drive: { dubai: 45, abudhabi: 135 } },
+  { key: 'sbi', slug: 'sir-bani-yas', ar: 'جزيرة صير بني ياس', hero: 'sbi-hero', split: null, hl: ['sbi-wildlife', 'sbi-hero', 'sbi-hero'], region: 'abudhabi', drive: { dubai: 230, abudhabi: 150 } },
 ];
 
 // Emirate-level drive table for the drive planner (minutes, one way, typical off-peak).

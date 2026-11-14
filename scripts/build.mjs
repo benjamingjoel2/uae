@@ -286,15 +286,15 @@ ${heroBlock(loc, p.hero, { ey: esc(P.eyebrow), ar: p.ar, title: t.h(P.title) })}
   </dl>
 </section>
 <section class="wrap sec--tight">
-  <div class="split">
-    <div class="split__img">${ph(p.imgs[0], loc, 'r-32 arish', { sizes: '(min-width: 900px) 70vw, 100vw' })}</div>
+  ${p.split ? `<div class="split">
+    <div class="split__img">${ph(p.split, loc, 'r-32 arish', { sizes: '(min-width: 900px) 70vw, 100vw' })}</div>
     <div class="split__txt" data-reveal>${eyebrow(esc(L.nav[p.key]), p.ar)}<p style="font-size:1rem;color:var(--charcoal)">${t.h(P.body)}</p></div>
-  </div>
+  </div>` : `<div class="note" data-reveal><div>${eyebrow(esc(L.nav[p.key]), p.ar)}</div><div><p style="font-size:1.0625rem">${t.h(P.body)}</p></div></div>`}
 </section>
 ${dune()}
 <section class="wrap sec" aria-label="${esc(L.ui.explore)}">
   <div class="hl">
-    ${P.highlights.map((h, n) => `<article class="hl__row" data-reveal>${ph(p.imgs[n] || p.hero, loc, n === 1 ? 'r-45' : 'r-32', { sizes: '(min-width: 900px) 58vw, 100vw', altOverride: `${strip(h.title)} — ${L.nav[p.key]}` })}<div class="hl__txt"><span class="hl__n">0${n + 1}</span><h2 class="hl__t">${t.h(h.title)}</h2><p class="hl__p">${t.h(h.text)}</p></div></article>`).join('')}
+    ${P.highlights.map((h, n) => `<article class="hl__row" data-reveal>${ph(p.hl[n], loc, n === 1 ? 'r-45' : 'r-32', { sizes: '(min-width: 900px) 58vw, 100vw' })}<div class="hl__txt"><span class="hl__n">0${n + 1}</span><h2 class="hl__t">${t.h(h.title)}</h2><p class="hl__p">${t.h(h.text)}</p></div></article>`).join('')}
   </div>
 </section>
 <section class="band sec--tight">

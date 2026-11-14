@@ -247,5 +247,110 @@
       "place": "Sharjah Mosque, Sharjah",
       "attribution": true
     }
+  },
+  "sharjah-hero": {
+    "w": 1200,
+    "h": 800,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 55%",
+    "credit": {
+      "title": "Sharjah Heritage Area, UAE (4324549568)",
+      "author": "yeowatzup",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sharjah_Heritage_Area,_UAE_(4324549568).jpg",
+      "place": "Sharjah Heritage Area (Heart of Sharjah), Sharjah",
+      "attribution": true
+    }
+  },
+  "sharjah-museum": {
+    "w": 1200,
+    "h": 636,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Sharjah Art Foundation-5",
+      "author": "Saloni Sakhardande",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sharjah_Art_Foundation-5.jpg",
+      "place": "Sharjah Art Foundation, Arts Area (Al Mureijah), Sharjah",
+      "attribution": true
+    }
+  },
+  "ajman-hero": {
+    "w": 1200,
+    "h": 801,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Grey mangroves Avicennia marina at Umm Al Quwain Mangrove Park",
+      "author": "AmethystDreams",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Grey_mangroves_Avicennia_marina_at_Umm_Al_Quwain_Mangrove_Park.jpg",
+      "place": "Umm Al Quwain Mangrove Park, Umm Al Quwain",
+      "attribution": true
+    }
+  },
+  "uaq-lagoon": {
+    "w": 1200,
+    "h": 797,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Sea of Umm al-Quwain 20111001",
+      "author": "Majid Sarmast from Richmond Hill, Canada",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sea_of_Umm_al-Quwain_20111001.jpg",
+      "place": "Umm Al Quwain lagoon (Khor Al Beidah area), Umm Al Quwain",
+      "attribution": true
+    }
+  },
+  "detail-arish": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 45%",
+    "credit": {
+      "title": "Dubai Museum inside",
+      "author": "Farrah Zakir",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Museum_inside.JPG",
+      "place": "Arish (palm-frond) house interior, Dubai Museum (Al Fahidi Fort), Dubai",
+      "attribution": true
+    }
   }
 }
