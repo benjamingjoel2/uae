@@ -105,9 +105,9 @@ function header(loc, key, L, over) {
 <div class="mn" id="menu" role="dialog" aria-modal="true" aria-label="${esc(L.ui.menu)}" aria-hidden="true" inert>
   <div class="mn__top"><button class="mn__close" type="button" data-menu-close><span class="mn__x" aria-hidden="true"></span>${esc(L.ui.close)}</button><a class="hd__logo" href="${url(loc, 'home')}" aria-label="${t.p(L.ui.homeLabel)}">${towerSvg()}<span class="hd__word">${esc(config.brand.name)}</span></a></div>
   <nav class="mn__body" aria-label="${esc(L.ui.menu)}">
-    <div class="mn__col mn__col--a"><h2>${esc(L.ui.menuPrimary)}</h2><ul class="mn__big">${places.map((p) => `<li><a href="${url(loc, p.key)}" data-img="${p.key}"${p.key === key ? ' aria-current="page"' : ''}>${esc(L.nav[p.key])} <span class="ar" lang="ar" dir="rtl">${p.ar}</span></a></li>`).join('')}</ul></div>
-    <div class="mn__col mn__col--b"><h2>${esc(L.ui.menuSecondary)}</h2><ul class="mn__small">${['season', 'ramadan', 'drive', 'journeys', 'stays'].map((k) => `<li><a href="${url(loc, k)}"${k === key ? ' aria-current="page"' : ''}>${esc(L.nav[k])}</a></li>`).join('')}</ul>
-      <h2>${esc(L.ui.menuTertiary)}</h2><ul class="mn__small">${['about', 'journal', 'enquire'].map((k) => `<li><a href="${url(loc, k)}"${k === key ? ' aria-current="page"' : ''}>${esc(L.nav[k])}</a></li>`).join('')}</ul></div>
+    <div class="mn__col mn__col--a"><h2>${esc(L.ui.menuPrimary)}</h2><ul class="mn__big">${places.map((p, i) => `<li style="--i:${i}"><a href="${url(loc, p.key)}" data-img="${p.key}"${p.key === key ? ' aria-current="page"' : ''}>${esc(L.nav[p.key])} <span class="ar" lang="ar" dir="rtl">${p.ar}</span></a></li>`).join('')}</ul></div>
+    <div class="mn__col mn__col--b"><h2>${esc(L.ui.menuSecondary)}</h2><ul class="mn__small">${['season', 'ramadan', 'drive', 'journeys', 'stays'].map((k, i) => `<li style="--i:${i + 2}"><a href="${url(loc, k)}"${k === key ? ' aria-current="page"' : ''}>${esc(L.nav[k])}</a></li>`).join('')}</ul>
+      <h2>${esc(L.ui.menuTertiary)}</h2><ul class="mn__small">${['about', 'journal', 'enquire'].map((k, i) => `<li style="--i:${i + 8}"><a href="${url(loc, k)}"${k === key ? ' aria-current="page"' : ''}>${esc(L.nav[k])}</a></li>`).join('')}</ul></div>
     <div class="mn__img" aria-hidden="true">${images['home-dawn'] ? pic('home-dawn', loc, { sizes: '33vw', altOverride: '' }) : ''}</div>
   </nav>
   ${menuImgs.map(([k, slot]) => (images[slot] ? `<template id="mi-${k}">${pic(slot, loc, { sizes: '33vw', altOverride: '' })}</template>` : '')).join('')}

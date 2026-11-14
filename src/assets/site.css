@@ -98,8 +98,22 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .hd--over:not(.is-solid)::before { content: ""; position: absolute; inset: 0 0 -40px; background: linear-gradient(rgba(20,18,15,.38), transparent); z-index: -1; pointer-events: none; }
 
 /* ── Menu overlay ── */
-.mn { position: fixed; inset: 0; z-index: 60; background: var(--gypsum); color: var(--charcoal); display: grid; grid-template-rows: var(--header-h) 1fr auto; visibility: hidden; opacity: 0; transition: opacity .45s var(--ease), visibility 0s .45s; overflow-y: auto; }
-.mn.is-open { visibility: visible; opacity: 1; transition: opacity .45s var(--ease); }
+.mn { position: fixed; inset: 0; z-index: 60; background: var(--gypsum); color: var(--charcoal); display: grid; grid-template-rows: var(--header-h) 1fr auto; overflow-y: auto; visibility: hidden; clip-path: inset(0 0 100% 0); transition: clip-path .6s cubic-bezier(.76,0,.24,1) .12s, visibility 0s .75s; }
+.mn.is-open { visibility: visible; clip-path: inset(0 0 0 0); transition: clip-path .8s cubic-bezier(.76,0,.24,1); }
+/* staggered content reveal */
+.mn__top, .mn__col h2, .mn__col li, .mn__foot { opacity: 0; transform: translateY(16px); transition: opacity .25s var(--ease), transform .25s var(--ease); }
+.mn.is-open .mn__top, .mn.is-open .mn__col h2, .mn.is-open .mn__col li, .mn.is-open .mn__foot { opacity: 1; transform: none; transition: opacity .7s var(--ease), transform .9s var(--ease); transition-delay: calc(.35s + var(--i, 0) * 45ms); }
+.mn.is-open .mn__top { transition-delay: .3s; }
+.mn.is-open .mn__foot { transition-delay: .8s; }
+.mn__img { opacity: 0; transition: opacity .3s var(--ease); }
+.mn__img img { transform: scale(1.12); transition: transform .4s var(--ease); }
+.mn.is-open .mn__img { opacity: 1; transition: opacity 1s var(--ease) .45s; }
+.mn.is-open .mn__img img { transform: scale(1); transition: transform 1.8s var(--ease) .35s; }
+.mn__img picture { display: block; width: 100%; height: 100%; animation: mn-swap .6s var(--ease); }
+@keyframes mn-swap { from { opacity: .2; } to { opacity: 1; } }
+.hd__burger::before, .hd__burger::after { transition: transform .4s var(--ease); }
+.hd__menu:hover .hd__burger::before { transform: translateX(4px); }
+.hd__menu:hover .hd__burger::after { transform: translateX(-4px); }
 .mn__top { display: flex; align-items: center; gap: 18px; padding-inline: var(--g); }
 .mn__close { background: none; border: 0; cursor: pointer; display: inline-flex; gap: 12px; align-items: center; min-height: 44px; font-size: var(--fs-small); }
 .mn__x { width: 18px; height: 18px; position: relative; }
