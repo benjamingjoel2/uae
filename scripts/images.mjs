@@ -2,7 +2,7 @@
 // and writes src/data/images.json (dimensions, focal point and credits).
 // Usage: npm run images -- <folder with manifest.json and source jpgs>
 // Needs `sharp` (npm i -D sharp). Not used at deploy time: the outputs are committed.
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
@@ -13,7 +13,8 @@ const OUT = join(ROOT, 'public/img');
 const WIDTHS = [480, 800, 1200, 1600, 2000];
 mkdirSync(OUT, { recursive: true });
 
-const manifest = JSON.parse(readFileSync(join(SRC, 'manifest.json'), 'utf8'));
+// Reads manifest.json and any manifest-*.json files in the source folder.
+const manifest = readdirSync(SRC).filter((f) => /^manifest.*\.json$/.test(f)).flatMap((f) => JSON.parse(readFileSync(join(SRC, f), 'utf8')));
 const dataPath = join(ROOT, 'src/data/images.json');
 const data = existsSync(dataPath) ? JSON.parse(readFileSync(dataPath, 'utf8')) : {};
 const focal = existsSync(join(SRC, 'focal.json')) ? JSON.parse(readFileSync(join(SRC, 'focal.json'), 'utf8')) : {};
@@ -32,7 +33,7 @@ for (const m of manifest) {
   }
   const lic = (m.license || '').toLowerCase();
   data[m.slot] = {
-    w: 1200, h: Math.round((1200 * meta.height) / meta.width), widths, pos: focal[m.slot] || data[m.slot]?.pos || '50% 50%',
+    w: 1200, h: Math.round((1200 * meta.height) / meta.width), widths, pos: focal[m.slot] || m.focal || data[m.slot]?.pos || '50% 50%',
     credit: { title: m.title, author: m.author, license: m.license, license_url: m.license_url, source_url: m.source_url, place: m.place,
       attribution: !lic.includes('unsplash') },
   };
