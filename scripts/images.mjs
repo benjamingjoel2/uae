@@ -27,7 +27,7 @@ for (const m of manifest) {
   // Skip slots already processed from this source (pass --force to redo).
   if (!process.argv.includes('--force') && data[m.slot]?.credit?.source_url === m.source_url && existsSync(join(OUT, `${m.slot}-480.avif`))) { console.log('·', m.slot, 'up to date'); continue; }
   const widths = WIDTHS.filter((w) => w <= meta.width);
-  if (!widths.length) widths.push(meta.width);
+  if (!widths.includes(meta.width) && meta.width < WIDTHS[WIDTHS.length - 1]) widths.push(meta.width);
   for (const w of widths) {
     const base = sharp(file).rotate().resize({ width: w, withoutEnlargement: true });
     await base.clone().avif({ quality: w <= 800 ? 52 : 46, effort: 3 }).toFile(join(OUT, `${m.slot}-${w}.avif`));
@@ -37,7 +37,7 @@ for (const m of manifest) {
   data[m.slot] = {
     w: 1200, h: Math.round((1200 * meta.height) / meta.width), widths, pos: focal[m.slot] || m.focal || data[m.slot]?.pos || '50% 50%',
     credit: { title: m.title, author: m.author, license: m.license, license_url: m.license_url, source_url: m.source_url, place: m.place,
-      attribution: !lic.includes('unsplash') },
+      attribution: !lic.includes('unsplash') && !lic.includes('supplied') },
   };
   console.log('✓', m.slot, widths.join(','));
 }

@@ -200,7 +200,7 @@ function homePage(loc) {
   const body = `
 <section class="pan" data-hero aria-label="${t.p(H.heroTitle)}">
   <div class="pan__stick">
-    <div class="pan__layer pan__dawn">${pic('home-dawn', loc, { eager: true })}
+    <div class="pan__layer pan__dawn">${pic('home-hero', loc, { eager: true })}
       <div class="hero__txt">${eyebrow(esc(H.heroEyebrow), 'الإمارات السبع')}<h1 class="hero__title">${t.h(H.heroTitle)}</h1>
       <div class="hero__row"><p class="hero__lead">${t.h(H.heroLead)}</p><span class="hero__scroll" aria-hidden="true">${esc(H.heroScroll)}</span></div></div>
     </div>
@@ -268,7 +268,7 @@ ${dune()}
     ${L.journal.posts.map((p) => `<li><b><a href="${url(loc, 'journal')}#${p.key}" style="text-decoration:none">${t.h(p.title)}</a></b><span class="muted">${esc(p.date)}</span></li>`).join('')}
   </ul>
 </section>`;
-  return page({ loc, key: 'home', body, heroSlot: 'home-dawn', over: true });
+  return page({ loc, key: 'home', body, heroSlot: 'home-hero', over: true });
 }
 
 function placePage(loc, p, i) {

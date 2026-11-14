@@ -1,6 +1,7 @@
 // Alt text per image slot and locale.
 export default {
   en: {
+    'home-hero': 'The main gate and dome of Qasr Al Watan, the Presidential Palace in Abu Dhabi',
     'home-dawn': 'Wind towers above the coral-stone houses of Al Fahidi, Dubai, against a pale morning sky',
     'home-dusk': 'A long sand dune ridge at dusk in the Liwa desert, at the edge of the Empty Quarter',
     'dubai-hero': 'Wooden abras crossing Dubai Creek between Bur Dubai and Deira',
@@ -37,6 +38,7 @@ export default {
     'stays-desert': 'Rolling sand dunes in the desert of the Emirates',
   },
   fr: {
+    'home-hero': 'La porte principale et la coupole de Qasr Al Watan, le palais présidentiel d’Abou Dabi',
     'home-dawn': 'Tours à vent au-dessus des maisons de pierre corallienne d’Al Fahidi, à Dubaï, sous un ciel pâle du matin',
     'home-dusk': 'Une longue crête de dune au crépuscule dans le désert de Liwa, aux portes du Quart Vide',
     'dubai-hero': 'Des abras en bois traversant la crique de Dubaï entre Bur Dubaï et Deira',
@@ -73,6 +75,7 @@ export default {
     'stays-desert': 'Dunes ondulantes dans le désert des Émirats',
   },
   de: {
+    'home-hero': 'Haupttor und Kuppel von Qasr Al Watan, dem Präsidentenpalast in Abu Dhabi',
     'home-dawn': 'Windtürme über den Korallensteinhäusern von Al Fahidi in Dubai vor einem blassen Morgenhimmel',
     'home-dusk': 'Ein langer Dünenkamm in der Abenddämmerung in der Wüste von Liwa, am Rand des Leeren Viertels',
     'dubai-hero': 'Hölzerne Abras überqueren den Dubai Creek zwischen Bur Dubai und Deira',
@@ -109,6 +112,7 @@ export default {
     'stays-desert': 'Sanft geschwungene Sanddünen in der Wüste der Emirate',
   },
   es: {
+    'home-hero': 'La puerta principal y la cúpula de Qasr Al Watan, el palacio presidencial de Abu Dabi',
     'home-dawn': 'Torres de viento sobre las casas de piedra coralina de Al Fahidi, en Dubái, bajo un cielo pálido de mañana',
     'home-dusk': 'Una larga cresta de duna al atardecer en el desierto de Liwa, a las puertas del Cuarto Vacío',
     'dubai-hero': 'Abras de madera cruzando la ría de Dubái entre Bur Dubai y Deira',

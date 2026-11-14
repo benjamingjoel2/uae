@@ -114,7 +114,7 @@ export default {
   home: {
     heroEyebrow: 'Les sept émirats',
     heroTitle: 'Des Émirats plus anciens, plus doux',
-    heroLead: 'Premières lueurs sur le quartier de la crique, derniers feux sur les dunes. Des voyages privés à travers les sept émirats, au fil des mois où le pays ouvre grand ses portes.',
+    heroLead: 'Des cours de marbre de la capitale aux derniers feux sur les dunes. Des voyages privés à travers les sept émirats, au fil des mois où le pays ouvre grand ses portes.',
     heroScroll: 'Défiler',
     duskEyebrow: 'Liwa, aux portes du Quart Vide',
     duskTitle: 'Des tours à vent jusqu’à la ligne des dunes',

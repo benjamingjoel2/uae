@@ -678,5 +678,23 @@
       "place": "Dunes of Liwa Oasis, Abu Dhabi",
       "attribution": true
     }
+  },
+  "home-hero": {
+    "w": 1200,
+    "h": 1800,
+    "widths": [
+      480,
+      500
+    ],
+    "pos": "50% 62%",
+    "credit": {
+      "title": "Qasr Al Watan main facade",
+      "author": "Supplied by the site owner",
+      "license": "Supplied by the site owner (no credit line required)",
+      "license_url": "",
+      "source_url": "",
+      "place": "Qasr Al Watan, Abu Dhabi",
+      "attribution": false
+    }
   }
 }
