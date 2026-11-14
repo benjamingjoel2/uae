@@ -28,8 +28,8 @@ export const config = {
 
   // Canonical site URL (no trailing slash). The production domain format is barjeeljourneys.tourground.com.
   siteUrl: 'https://barjeeljourneys.tourground.com',
-  // Live Vercel deployment URL (set after deploy).
-  liveUrl: 'https://barjeel-journeys.vercel.app',
+  // Live URL (Vercel project barjeel-journeys; also at https://barjeel-journeys.vercel.app).
+  liveUrl: 'https://barjeeljourneys.tourground.com',
 
   // Enquiry form endpoint. FormSubmit forwards submissions to the email above
   // (the first submission triggers a one-time activation email to that inbox).

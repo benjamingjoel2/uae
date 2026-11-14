@@ -2,8 +2,7 @@
 
 A fast, static, four-language travel website for private journeys across the seven emirates of the United Arab Emirates.
 
-- **Live site:** https://barjeel-journeys.vercel.app
-- **Intended domain:** https://barjeeljourneys.tourground.com
+- **Live site:** https://barjeeljourneys.tourground.com (Vercel project `barjeel-journeys`, also reachable at https://barjeel-journeys.vercel.app)
 - **Languages:** English (default, at `/`), French (`/fr/`), German (`/de/`), Spanish (`/es/`). Every page is pre-rendered in all four.
 
 ## Run it
@@ -24,7 +23,7 @@ npm run serve
 
 `vercel.json` already holds the settings: build command `npm run build`, output folder `dist`, clean URLs with trailing slashes, a no-op install step, and one-year immutable cache headers for `/img`, `/fonts` and `/assets`. Every push to `main` on GitHub (`benjamingjoel2/uae`) deploys automatically to the Vercel project `barjeel-journeys` (team *Benjamin - Sevo*).
 
-To use the real domain, add `barjeeljourneys.tourground.com` under the project's **Settings → Domains** in Vercel, and add the CNAME record Vercel shows at the DNS host for `tourground.com`. Canonical URLs, hreflang links and the sitemap already point to that domain (`siteUrl` in `src/config.mjs`).
+The domain `barjeeljourneys.tourground.com` is attached to the project (Vercel → Settings → Domains), with a CNAME to Vercel in the Cloudflare DNS for `tourground.com`. Canonical URLs, hreflang links, JSON-LD and the sitemap all use it (`siteUrl` in `src/config.mjs`).
 
 ## Edit the site
 
