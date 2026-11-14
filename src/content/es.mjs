@@ -117,7 +117,7 @@ export default {
     heroLead: 'De los patios de mármol de la capital a la última luz sobre las dunas. Viajes privados por los siete emiratos, en los meses en que el país abre sus puertas.',
     heroScroll: 'Desplazarse',
     duskEyebrow: 'Liwa, en el borde del Cuarto Vacío',
-    duskTitle: 'De las torres de viento a la línea de dunas',
+    duskTitle: 'Del mármol de los palacios a la línea de dunas',
     intro: 'El barjeel —la torre de viento cuadrada de la antigua casa del Golfo— atrapaba la brisa más leve y la conducía hacia las estancias de abajo. Así planificamos los Emiratos: buscando el fresco. El mes adecuado, la hora adecuada, el emirato adecuado. Siete, no uno.',
     introSub: 'La mayoría de los visitantes ven una sola ciudad durante tres noches. Nosotros planificamos los antiguos barrios de la ría de Dubái y Sharjah, las ciudades oasis de Al Ain y Liwa, las dunas del Cuarto Vacío, las montañas de Ras al Jaima y Hatta y las bahías tranquilas de la costa este, en el orden y la estación que tienen sentido.',
     featuresEyebrow: 'Tres formas de empezar',

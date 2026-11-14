@@ -117,7 +117,7 @@ export default {
     heroLead: 'Des cours de marbre de la capitale aux derniers feux sur les dunes. Des voyages privés à travers les sept émirats, au fil des mois où le pays ouvre grand ses portes.',
     heroScroll: 'Défiler',
     duskEyebrow: 'Liwa, aux portes du Quart Vide',
-    duskTitle: 'Des tours à vent jusqu’à la ligne des dunes',
+    duskTitle: 'Du marbre des palais jusqu’à la ligne des dunes',
     intro: 'Le barjeel — la tour à vent carrée des anciennes maisons du Golfe — captait la moindre brise et la faisait descendre dans les pièces en contrebas. Nous concevons les Émirats de la même manière : en cherchant la fraîcheur. Le bon mois, la bonne heure, le bon émirat. Sept, et non un seul.',
     introSub: 'La plupart des visiteurs ne voient qu’une ville, le temps de trois nuits. Nous vous emmenons dans les vieux quartiers de la crique à Dubaï et à Charjah, les villes-oasis d’Al Aïn et de Liwa, les dunes du Quart Vide, les montagnes de Ras el Khaïmah et de Hatta, les baies paisibles de la côte est — dans l’ordre et à la saison qui leur conviennent.',
     featuresEyebrow: 'Trois points de départ',

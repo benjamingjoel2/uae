@@ -117,7 +117,7 @@ export default {
     heroLead: 'From the marble courts of the capital to the last light on the dunes. Private journeys through all seven emirates, timed to the months when the country opens its doors.',
     heroScroll: 'Scroll',
     duskEyebrow: 'Liwa, at the edge of the Empty Quarter',
-    duskTitle: 'From wind towers to the dune line',
+    duskTitle: 'From palace marble to the dune line',
     intro: 'The barjeel — the square wind tower of the old Gulf house — caught the faintest breeze and pulled it down into the rooms below. We plan the Emirates the same way: by catching the cool. The right month, the right hour, the right emirate. Seven of them, not one.',
     introSub: 'Most visitors see a single city for three nights. We plan the old creek quarters of Dubai and Sharjah, the oasis towns of Al Ain and Liwa, the dunes of the Empty Quarter, the mountains of Ras Al Khaimah and Hatta, and the quiet bays of the east coast — in the order and the season that makes sense.',
     featuresEyebrow: 'Three ways in',

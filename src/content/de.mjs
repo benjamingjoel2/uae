@@ -117,7 +117,7 @@ export default {
     heroLead: 'Von den Marmorhöfen der Hauptstadt bis zum letzten Licht auf den Dünen. Private Reisen durch alle sieben Emirate, abgestimmt auf die Monate, in denen das Land seine Türen öffnet.',
     heroScroll: 'Scrollen',
     duskEyebrow: 'Liwa, am Rand des Leeren Viertels',
-    duskTitle: 'Von den Windtürmen bis zur Dünenlinie',
+    duskTitle: 'Vom Marmor der Paläste bis zur Dünenlinie',
     intro: 'Der Barjeel – der quadratische Windturm des alten Golfhauses – fing selbst die leiseste Brise ein und lenkte sie hinab in die Räume darunter. Genauso planen wir die Emirate: indem wir die Kühle einfangen. Der richtige Monat, die richtige Stunde, das richtige Emirat. Sieben an der Zahl, nicht nur eines.',
     introSub: 'Die meisten Reisenden sehen drei Nächte lang eine einzige Stadt. Wir planen die alten Viertel am Creek in Dubai und Sharjah, die Oasenstädte Al Ain und Liwa, die Dünen des Leeren Viertels, die Berge von Ras Al Khaimah und Hatta und die stillen Buchten der Ostküste – in der Reihenfolge und zu der Jahreszeit, die Sinn ergeben.',
     featuresEyebrow: 'Drei Zugänge',
