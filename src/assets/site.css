@@ -16,7 +16,7 @@
 :root {
   --g: clamp(16px, 3.2vw, 48px);           /* side margin */
   --gap: clamp(16px, 1.8vw, 28px);         /* grid gap */
-  --sec: clamp(72px, 10vw, 168px);         /* section spacing */
+  --sec: clamp(48px, 5.5vw, 88px);         /* section spacing */
   --fs-display: clamp(2.5rem, 6.2vw, 6.6rem);
   --fs-h1: clamp(2.3rem, 5.2vw, 5.6rem);
   --fs-h2: clamp(2rem, 4.2vw, 3.9rem);
@@ -133,14 +133,13 @@ body.menu-open { overflow: hidden; }
 .tower-rule::after { content: ""; flex: 1; height: 1px; background: currentColor; opacity: .25; margin-top: 12px; }
 
 /* ── Dune divider ── */
-.dune { display: block; width: 100%; height: clamp(28px, 4vw, 60px); color: var(--stone); opacity: .55; }
+.dune { display: block; width: 100%; height: clamp(20px, 2.4vw, 36px); color: var(--stone); opacity: .55; margin-block: calc(var(--sec) * -0.35); }
 .band .dune, .band--dark .dune { color: currentColor; }
 
 /* ── Images & arish hover ── */
 .ph { position: relative; overflow: hidden; background: var(--sand); }
 .ph img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.4s var(--ease); }
-.ph::after { content: ""; position: absolute; inset: -20%; pointer-events: none; opacity: 0; background: repeating-linear-gradient(112deg, rgba(34,32,29,0) 0 18px, rgba(34,32,29,.16) 18px 24px, rgba(34,32,29,0) 24px 36px); transform: translateX(-4%); transition: opacity .8s var(--ease), transform 2.4s var(--ease); }
-a:hover .ph::after, a:focus-visible .ph::after, .ph.arish:hover::after { opacity: 1; transform: translateX(3%); }
+
 a:hover .ph img, a:focus-visible .ph img { transform: scale(1.035); }
 .r-45 { aspect-ratio: 4 / 5; } .r-34 { aspect-ratio: 3 / 4; } .r-32 { aspect-ratio: 3 / 2; } .r-169 { aspect-ratio: 16 / 9; } .r-11 { aspect-ratio: 1; } .r-21 { aspect-ratio: 2 / 1; }
 
@@ -208,7 +207,8 @@ a:hover .ph img, a:focus-visible .ph img { transform: scale(1.035); }
   .state-wrap { grid-template-columns: repeat(12, minmax(0,1fr)); gap: var(--gap); }
   .state-wrap > .state { grid-column: 1 / span 10; }
   .state-wrap > .state-meta { grid-column: 1 / span 4; margin-left: 0; }
-  .state-wrap > .state-meta--right { grid-column: 8 / span 4; }
+  .state-wrap > .state-meta--right { grid-column: 9 / span 4; grid-row: 1; align-self: end; }
+  .state-wrap:has(.state-meta--right) > .state { grid-column: 1 / span 8; }
 }
 
 /* ── Cards (Aman-style): eyebrow, serif title, short text, underlined link ── */
@@ -479,7 +479,7 @@ a:hover .ph img, a:focus-visible .ph img { transform: scale(1.035); }
 }
 
 /* ── Utility spacing ── */
-.mt-s { margin-top: 16px; } .mt-m { margin-top: 32px; } .mt-l { margin-top: 64px; } .mb-m { margin-bottom: 32px; } .mb-l { margin-bottom: 64px; }
+.mt-s { margin-top: 16px; } .mt-m { margin-top: 32px; } .mt-l { margin-top: 48px; } .mb-m { margin-bottom: 32px; } .mb-l { margin-bottom: 40px; }
 .h2 { font-size: var(--fs-h2); }
 .prose p { max-width: 40rem; }
 .prose a { text-underline-offset: 3px; }
