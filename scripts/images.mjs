@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const SRC = process.argv[2] || join(ROOT, 'raw-images');
+const SRC = process.argv.slice(2).find((a) => !a.startsWith('--')) || join(ROOT, 'raw-images');
 const OUT = join(ROOT, 'public/img');
 const WIDTHS = [480, 800, 1200, 1600, 2000];
 mkdirSync(OUT, { recursive: true });
@@ -24,11 +24,13 @@ for (const m of manifest) {
   const file = join(SRC, m.file);
   if (!existsSync(file)) { console.warn('missing', file); continue; }
   const meta = await sharp(file).metadata();
+  // Skip slots already processed from this source (pass --force to redo).
+  if (!process.argv.includes('--force') && data[m.slot]?.credit?.source_url === m.source_url && existsSync(join(OUT, `${m.slot}-480.avif`))) { console.log('·', m.slot, 'up to date'); continue; }
   const widths = WIDTHS.filter((w) => w <= meta.width);
   if (!widths.length) widths.push(meta.width);
   for (const w of widths) {
     const base = sharp(file).rotate().resize({ width: w, withoutEnlargement: true });
-    await base.clone().avif({ quality: w <= 800 ? 52 : 46, effort: 5 }).toFile(join(OUT, `${m.slot}-${w}.avif`));
+    await base.clone().avif({ quality: w <= 800 ? 52 : 46, effort: 3 }).toFile(join(OUT, `${m.slot}-${w}.avif`));
     await base.clone().webp({ quality: 74, effort: 5 }).toFile(join(OUT, `${m.slot}-${w}.webp`));
   }
   const lic = (m.license || '').toLowerCase();

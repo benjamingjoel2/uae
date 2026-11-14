@@ -1,0 +1,125 @@
+{
+  "alain-hero": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 55%",
+    "credit": {
+      "title": "Date palm tree irrigation",
+      "author": "Okhtyartist",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Date_palm_tree_irrigation.jpg",
+      "place": "Al Ain Oasis, Al Ain",
+      "attribution": true
+    }
+  },
+  "alain-falaj": {
+    "w": 1200,
+    "h": 801,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "40% 70%",
+    "credit": {
+      "title": "Falaj in Al Ain Oasis",
+      "author": "Flounder Lee",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Falaj_in_Al_Ain_Oasis.jpg",
+      "place": "Al Ain Oasis, Al Ain",
+      "attribution": true
+    }
+  },
+  "alain-hafeet": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "70% 55%",
+    "credit": {
+      "title": "Jebel Hafeet Al Ain 2",
+      "author": "Colleen Jean",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jebel_Hafeet_Al_Ain_2.jpg",
+      "place": "Jebel Hafeet, Al Ain",
+      "attribution": true
+    }
+  },
+  "alain-fort": {
+    "w": 1200,
+    "h": 549,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "45% 60%",
+    "credit": {
+      "title": "Al-Jahili Fort-2",
+      "author": "SUNILKUMAR NAIR",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al-Jahili_Fort-2.jpg",
+      "place": "Al Jahili Fort, Al Ain",
+      "attribution": true
+    }
+  },
+  "liwa-hero": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Liwa Desert",
+      "author": "Jc8136",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liwa_Desert.JPG",
+      "place": "Liwa desert dunes, Al Dhafra, Abu Dhabi",
+      "attribution": true
+    }
+  },
+  "liwa-oasis": {
+    "w": 1200,
+    "h": 801,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 60%",
+    "credit": {
+      "title": "Liwa Oasis palm trees with the desert view",
+      "author": "Josephyousry",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liwa_Oasis_palm_trees_with_the_desert_view.jpg",
+      "place": "Liwa Oasis, Al Dhafra, Abu Dhabi",
+      "attribution": true
+    }
+  }
+}
