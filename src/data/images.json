@@ -352,5 +352,131 @@
       "place": "Arish (palm-frond) house interior, Dubai Museum (Al Fahidi Fort), Dubai",
       "attribution": true
     }
+  },
+  "home-dawn": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Al Bastakiya 6",
+      "author": "EditQ",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Bastakiya_6.jpg",
+      "place": "Al Fahidi Historical Neighbourhood (Al Bastakiya), Dubai",
+      "attribution": true
+    }
+  },
+  "home-dusk": {
+    "w": 1200,
+    "h": 800,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Desert - panoramio (5)",
+      "author": "Xiaotong Gao",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Desert_-_panoramio_(5).jpg",
+      "place": "Dunes of Liwa Oasis, Abu Dhabi",
+      "attribution": true
+    }
+  },
+  "dubai-hero": {
+    "w": 1200,
+    "h": 801,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Abras in Dubai Creek!",
+      "author": "Phil6007",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abras_in_Dubai_Creek!.jpg",
+      "place": "Abra station, Dubai Creek",
+      "attribution": true
+    }
+  },
+  "dubai-souk": {
+    "w": 1200,
+    "h": 899,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Dubai Spice Souk 2018",
+      "author": "Frodlekis",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Spice_Souk_2018.jpg",
+      "place": "Spice souk, Deira, Dubai",
+      "attribution": true
+    }
+  },
+  "dubai-fahidi": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Al Bastakiya 9",
+      "author": "EditQ",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Bastakiya_9.jpg",
+      "place": "Al Fahidi Historical Neighbourhood, Dubai",
+      "attribution": true
+    }
+  },
+  "detail-windtower": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 50%",
+    "credit": {
+      "title": "Al Bastakiya 12",
+      "author": "EditQ",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Bastakiya_12.jpg",
+      "place": "Al Fahidi Historical Neighbourhood, Dubai",
+      "attribution": true
+    }
   }
 }
