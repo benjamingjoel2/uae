@@ -41,69 +41,7 @@
   },
   "alain-hafeet": {
     "w": 1200,
-    "h": 900,
-    "widths": [
-      480,
-      800,
-      1200,
-      1600,
-      2000
-    ],
-    "pos": "70% 55%",
-    "credit": {
-      "title": "Jebel Hafeet Al Ain 2",
-      "author": "Colleen Jean",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Jebel_Hafeet_Al_Ain_2.jpg",
-      "place": "Jebel Hafeet, Al Ain",
-      "attribution": true
-    }
-  },
-  "alain-fort": {
-    "w": 1200,
-    "h": 549,
-    "widths": [
-      480,
-      800,
-      1200,
-      1600,
-      2000
-    ],
-    "pos": "45% 60%",
-    "credit": {
-      "title": "Al-Jahili Fort-2",
-      "author": "SUNILKUMAR NAIR",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Al-Jahili_Fort-2.jpg",
-      "place": "Al Jahili Fort, Al Ain",
-      "attribution": true
-    }
-  },
-  "liwa-hero": {
-    "w": 1200,
-    "h": 900,
-    "widths": [
-      480,
-      800,
-      1200,
-      1600
-    ],
-    "pos": "50% 50%",
-    "credit": {
-      "title": "Liwa Desert",
-      "author": "Jc8136",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Liwa_Desert.JPG",
-      "place": "Liwa desert dunes, Al Dhafra, Abu Dhabi",
-      "attribution": true
-    }
-  },
-  "liwa-oasis": {
-    "w": 1200,
-    "h": 801,
+    "h": 800,
     "widths": [
       480,
       800,
@@ -113,13 +51,76 @@
     ],
     "pos": "50% 60%",
     "credit": {
-      "title": "Liwa Oasis palm trees with the desert view",
-      "author": "Josephyousry",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Liwa_Oasis_palm_trees_with_the_desert_view.jpg",
-      "place": "Liwa Oasis, Al Dhafra, Abu Dhabi",
-      "attribution": true
+      "title": "A view of the desert from a high point of view",
+      "author": "Ed Wingate",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-view-of-the-desert-from-a-high-point-of-view-zkI0Ft7VDjc",
+      "place": "Jebel Hafeet Mountain, Al Ain, Abu Dhabi",
+      "attribution": false
+    }
+  },
+  "alain-fort": {
+    "w": 1200,
+    "h": 738,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "65% 50%",
+    "credit": {
+      "title": "a tree in front of a castle like structure",
+      "author": "Saj Shafique",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-tree-in-front-of-a-castle-like-structure-puOOEUAotjs",
+      "place": "Al Jahili Fort, Al Ain (page location: 'Al Ain Fort, Al Ain, Abu Dhabi, UAE')",
+      "attribution": false
+    }
+  },
+  "liwa-hero": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 70%",
+    "credit": {
+      "title": "a large sand dune with a single tree in the distance",
+      "author": "Gantaro",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-large-sand-dune-with-a-single-tree-in-the-distance-9eTP3GF4liQ",
+      "place": "Liwa desert, Abu Dhabi (page location: Arabian Nights Village, UAE; caption: 'sand dune in the Liwa desert in the UAE')",
+      "attribution": false
+    }
+  },
+  "liwa-oasis": {
+    "w": 1200,
+    "h": 800,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 60%",
+    "credit": {
+      "title": "An oasis blooms amidst the desert sands",
+      "author": "Liwa Desert Safari Abu Dhabi (@liwadesertsafari)",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/an-oasis-blooms-amidst-the-desert-sands-uWuzDwbtVnc",
+      "place": "Liwa, Abu Dhabi (page location: Liwa Desert Safari Abu Dhabi, Abu Dhabi, UAE)",
+      "attribution": false
     }
   },
   "abudhabi-hero": {
@@ -132,20 +133,20 @@
       1600,
       2000
     ],
-    "pos": "50% 35%",
+    "pos": "50% 45%",
     "credit": {
-      "title": "Sheikh Zayed Grand Mosque @ Abu Dhabi (15856602738)",
-      "author": "Guilhem Vellut from Annecy, France",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Sheikh_Zayed_Grand_Mosque_@_Abu_Dhabi_(15856602738).jpg",
-      "place": "Sheikh Zayed Grand Mosque, Abu Dhabi",
-      "attribution": true
+      "title": "White and gray mosque in front of body of water",
+      "author": "Farhan Khan",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/white-and-gray-mosque-in-front-of-body-of-water-CFbVdWD1RiI",
+      "place": "Sheikh Zayed Grand Mosque, Abu Dhabi (from Oasis of Dignity)",
+      "attribution": false
     }
   },
   "abudhabi-mosque-interior": {
     "w": 1200,
-    "h": 933,
+    "h": 801,
     "widths": [
       480,
       800,
@@ -153,15 +154,15 @@
       1600,
       2000
     ],
-    "pos": "50% 40%",
+    "pos": "60% 50%",
     "credit": {
-      "title": "Abu dhabi, Moschea dello Sceicco Zayed, aula di preghiera, 04",
-      "author": "Francesco Bini",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Abu_dhabi,_Moschea_dello_Sceicco_Zayed,_aula_di_preghiera,_04.jpg",
+      "title": "A large room with columns and a chandelier",
+      "author": "Alim",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/wIITUj0ouh8",
       "place": "Sheikh Zayed Grand Mosque prayer hall, Abu Dhabi",
-      "attribution": true
+      "attribution": false
     }
   },
   "abudhabi-hosn": {
@@ -195,15 +196,15 @@
       1600,
       2000
     ],
-    "pos": "40% 40%",
+    "pos": "50% 40%",
     "credit": {
-      "title": "Louvre abu dhabi, interno, cortile coperto 02",
-      "author": "Francesco Bini",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Louvre_abu_dhabi,_interno,_cortile_coperto_02.jpg",
+      "title": "black and white glass roof",
+      "author": "Muhammed Shazin",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/delUuoOvXlw",
       "place": "Louvre Abu Dhabi, Saadiyat Island",
-      "attribution": true
+      "attribution": false
     }
   },
   "stays-city": {
@@ -229,7 +230,7 @@
   },
   "journal-ramadan": {
     "w": 1200,
-    "h": 900,
+    "h": 800,
     "widths": [
       480,
       800,
@@ -237,15 +238,15 @@
       1600,
       2000
     ],
-    "pos": "65% 50%",
+    "pos": "50% 45%",
     "credit": {
-      "title": "Grand Mosque Of Sharjah",
-      "author": "Arrdl",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Grand_Mosque_Of_Sharjah.jpg",
-      "place": "Sharjah Mosque, Sharjah",
-      "attribution": true
+      "title": "The Sheikh Zayed Grand Mosque reflected in a pool at low sun in Abu Dhabi",
+      "author": "David Rodrigo",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/sheikh-zayed-grand-mosque-in-abu-dhabi-kZ1zThg6G40",
+      "place": "Sheikh Zayed Grand Mosque, Abu Dhabi",
+      "attribution": false
     }
   },
   "sharjah-hero": {
@@ -313,7 +314,7 @@
   },
   "uaq-lagoon": {
     "w": 1200,
-    "h": 797,
+    "h": 800,
     "widths": [
       480,
       800,
@@ -321,20 +322,20 @@
       1600,
       2000
     ],
-    "pos": "50% 50%",
+    "pos": "60% 40%",
     "credit": {
-      "title": "Sea of Umm al-Quwain 20111001",
-      "author": "Majid Sarmast from Richmond Hill, Canada",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Sea_of_Umm_al-Quwain_20111001.jpg",
-      "place": "Umm Al Quwain lagoon (Khor Al Beidah area), Umm Al Quwain",
-      "attribution": true
+      "title": "Traditional white buildings with palm tree shadows",
+      "author": "Vanburn Gonsalves",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/amLGkoD9wM4",
+      "place": "Umm Al Quwain Fort, King Faisal Road, Umm Al Quwain, United Arab Emirates",
+      "attribution": false
     }
   },
   "detail-arish": {
     "w": 1200,
-    "h": 900,
+    "h": 800,
     "widths": [
       480,
       800,
@@ -342,15 +343,15 @@
       1600,
       2000
     ],
-    "pos": "50% 45%",
+    "pos": "45% 45%",
     "credit": {
-      "title": "Dubai Museum inside",
-      "author": "Farrah Zakir",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Museum_inside.JPG",
-      "place": "Arish (palm-frond) house interior, Dubai Museum (Al Fahidi Fort), Dubai",
-      "attribution": true
+      "title": "A woman walking past a traditional building with a palm frond roof in Al Seef, Dubai",
+      "author": "Far Chinberdiev",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/WNCmntC_tTo",
+      "place": "Al Seef, Dubai",
+      "attribution": false
     }
   },
   "home-dawn": {
@@ -397,7 +398,7 @@
   },
   "dubai-hero": {
     "w": 1200,
-    "h": 801,
+    "h": 800,
     "widths": [
       480,
       800,
@@ -405,20 +406,20 @@
       1600,
       2000
     ],
-    "pos": "50% 50%",
+    "pos": "55% 55%",
     "credit": {
-      "title": "Abras in Dubai Creek!",
-      "author": "Phil6007",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Abras_in_Dubai_Creek!.jpg",
-      "place": "Abra station, Dubai Creek",
-      "attribution": true
+      "title": "a group of boats floating on top of a body of water",
+      "author": "Nick Fewings",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-body-of-water-wpBHI547h34",
+      "place": "Dubai Creek (Bur Dubai waterfront), Dubai",
+      "attribution": false
     }
   },
   "dubai-souk": {
     "w": 1200,
-    "h": 899,
+    "h": 800,
     "widths": [
       480,
       800,
@@ -428,18 +429,18 @@
     ],
     "pos": "50% 50%",
     "credit": {
-      "title": "Dubai Spice Souk 2018",
-      "author": "Frodlekis",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Dubai_Spice_Souk_2018.jpg",
-      "place": "Spice souk, Deira, Dubai",
-      "attribution": true
+      "title": "a variety of spices are displayed in baskets",
+      "author": "Arjun Radeesh",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-variety-of-spices-are-displayed-in-baskets-l8RnGaOhImE",
+      "place": "Dubai Spice Souk, Deira, Dubai",
+      "attribution": false
     }
   },
   "dubai-fahidi": {
     "w": 1200,
-    "h": 900,
+    "h": 800,
     "widths": [
       480,
       800,
@@ -447,20 +448,20 @@
       1600,
       2000
     ],
-    "pos": "50% 50%",
+    "pos": "40% 55%",
     "credit": {
-      "title": "Al Bastakiya 9",
-      "author": "EditQ",
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Bastakiya_9.jpg",
+      "title": "A narrow alley way with potted plants on either side",
+      "author": "Alex (@junypr)",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-narrow-alley-way-with-potted-plants-on-either-side-EpMfFRO-QRE",
       "place": "Al Fahidi Historical Neighbourhood, Dubai",
-      "attribution": true
+      "attribution": false
     }
   },
   "detail-windtower": {
     "w": 1200,
-    "h": 900,
+    "h": 2018,
     "widths": [
       480,
       800,
@@ -468,15 +469,15 @@
       1600,
       2000
     ],
-    "pos": "50% 50%",
+    "pos": "50% 40%",
     "credit": {
-      "title": "Al Bastakiya 12",
-      "author": "EditQ",
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Bastakiya_12.jpg",
-      "place": "Al Fahidi Historical Neighbourhood, Dubai",
-      "attribution": true
+      "title": "Traditional wind tower against a clear blue sky",
+      "author": "Keyvahn Chotani",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/traditional-wind-tower-against-a-clear-blue-sky-73wEQ23n4ng",
+      "place": "Al Seef, Dubai",
+      "attribution": false
     }
   },
   "rak-hero": {
@@ -486,17 +487,18 @@
       480,
       800,
       1200,
-      1600
+      1600,
+      2000
     ],
-    "pos": "50% 50%",
+    "pos": "40% 55%",
     "credit": {
-      "title": "A view from the road up Jebel Jais, Ras Al Khaimah",
-      "author": "Stevenmccombe",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:A_view_from_the_road_up_Jebel_Jais,_Ras_Al_Khaimah.jpg",
-      "place": "Jebel Jais road, Ras Al Khaimah",
-      "attribution": true
+      "title": "an aerial view of a winding road in the mountains",
+      "author": "Godwin Bephin",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/4ohQMOn1pXU",
+      "place": "Jebel Jais, Ras Al Khaimah, United Arab Emirates",
+      "attribution": false
     }
   },
   "rak-hamra": {
@@ -566,57 +568,60 @@
       480,
       800,
       1200,
-      1600
+      1600,
+      2000
     ],
     "pos": "50% 50%",
     "credit": {
-      "title": "Al Aqah Beach, Fujairah, 2007 (04)",
-      "author": "Bahnfrend",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Aqah_Beach,_Fujairah,_2007_(04).jpg",
-      "place": "Beach near Snoopy Island, Dibba coast, Fujairah",
-      "attribution": true
+      "title": "Sunset over a calm ocean with small boats",
+      "author": "Sergey Churikov",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/sunset-over-a-calm-ocean-with-small-boats-FnTVD3jD_L4",
+      "place": "Fujairah, United Arab Emirates (Gulf of Oman)",
+      "attribution": false
     }
   },
   "hatta-hero": {
     "w": 1200,
-    "h": 675,
+    "h": 898,
     "widths": [
       480,
       800,
       1200,
-      1600
+      1600,
+      2000
     ],
-    "pos": "50% 50%",
+    "pos": "50% 40%",
     "credit": {
-      "title": "A view of the Hatta Mountains in Hatta Dam",
-      "author": "Chuck202",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Hatta_Mountains_in_Hatta_Dam.jpg",
-      "place": "Hatta Dam, Hatta, Dubai",
-      "attribution": true
+      "title": "a large body of water surrounded by mountains (Hatta Dam turquoise waters)",
+      "author": "Datingscout",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-b_BRaORHCY4",
+      "place": "Hatta Dam, Hatta, Dubai, United Arab Emirates",
+      "attribution": false
     }
   },
   "hatta-village": {
     "w": 1200,
-    "h": 793,
+    "h": 800,
     "widths": [
       480,
       800,
       1200,
-      1600
+      1600,
+      2000
     ],
-    "pos": "50% 50%",
+    "pos": "55% 45%",
     "credit": {
-      "title": "Hatta Heritage Village",
-      "author": "CultureArts",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Hatta_Heritage_Village.jpg",
-      "place": "Hatta Heritage Village, Hatta, Dubai",
-      "attribution": true
+      "title": "a tall building with birds perched on top of it",
+      "author": "Mubaris Nendukanni",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/a-tall-building-with-birds-perched-on-top-of-it-6saTaEYJklc",
+      "place": "Hatta, Dubai, United Arab Emirates",
+      "attribution": false
     }
   },
   "sbi-hero": {
@@ -661,22 +666,23 @@
   },
   "stays-desert": {
     "w": 1200,
-    "h": 900,
+    "h": 801,
     "widths": [
       480,
       800,
       1200,
-      1600
+      1600,
+      2000
     ],
-    "pos": "50% 50%",
+    "pos": "50% 55%",
     "credit": {
-      "title": "Desert ripples (4184941765)",
-      "author": "Peter Dowley from Dubai, United Arab Emirates",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Desert_ripples_(4184941765).jpg",
-      "place": "Dunes of Liwa Oasis, Abu Dhabi",
-      "attribution": true
+      "title": "brown sand under white sky during daytime (Infinity Dunes series)",
+      "author": "Daniel Olah",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/brown-sand-under-white-sky-during-daytime-orslXe6SYb4",
+      "place": "Abu Dhabi desert, UAE",
+      "attribution": false
     }
   },
   "home-hero": {
@@ -697,6 +703,27 @@
       "license_url": "",
       "source_url": "",
       "place": "Qasr Al Watan, Abu Dhabi",
+      "attribution": false
+    }
+  },
+  "sharjah-mosque": {
+    "w": 1200,
+    "h": 675,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "55% 45%",
+    "credit": {
+      "title": "a large white building with a clock on it's side",
+      "author": "Ahmed Aldaie",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "source_url": "https://unsplash.com/photos/wciVJym1YD0",
+      "place": "Al Noor Mosque, Sharjah, United Arab Emirates",
       "attribution": false
     }
   }

@@ -7,7 +7,7 @@ export const places = [
   { key: 'abudhabi', slug: 'abu-dhabi', ar: 'أبوظبي', hero: 'abudhabi-hero', split: null, hl: ['abudhabi-mosque-interior', 'abudhabi-hosn', 'abudhabi-louvre'], region: 'abudhabi', drive: { dubai: 90, abudhabi: 0 }, type: 'base' },
   { key: 'alain', slug: 'al-ain', ar: 'العين', hero: 'alain-hero', split: null, hl: ['alain-falaj', 'alain-hafeet', 'alain-fort'], region: 'alain', drive: { dubai: 90, abudhabi: 100 } },
   { key: 'liwa', slug: 'liwa-empty-quarter', ar: 'ليوا والربع الخالي', hero: 'liwa-hero', split: null, hl: ['home-dusk', 'liwa-oasis', 'stays-desert'], region: 'liwa', drive: { dubai: 225, abudhabi: 135 } },
-  { key: 'sharjah', slug: 'sharjah', ar: 'الشارقة', hero: 'sharjah-hero', split: null, hl: ['sharjah-hero', 'journal-ramadan', 'sharjah-museum'], region: 'dubai', drive: { dubai: 30, abudhabi: 120 } },
+  { key: 'sharjah', slug: 'sharjah', ar: 'الشارقة', hero: 'sharjah-hero', split: null, hl: ['sharjah-hero', 'sharjah-mosque', 'sharjah-museum'], region: 'dubai', drive: { dubai: 30, abudhabi: 120 } },
   { key: 'rak', slug: 'ras-al-khaimah', ar: 'رأس الخيمة', hero: 'rak-hero', split: null, hl: ['rak-hero', 'rak-hamra', 'stays-coast'], region: 'rak', drive: { dubai: 75, abudhabi: 160 } },
   { key: 'fujairah', slug: 'fujairah-east-coast', ar: 'الفجيرة', hero: 'fujairah-hero', split: null, hl: ['fujairah-hero', 'fujairah-coast', 'stays-coast'], region: 'fujairah', drive: { dubai: 100, abudhabi: 170 } },
   { key: 'hatta', slug: 'hatta', ar: 'حتا', hero: 'hatta-hero', split: null, hl: ['hatta-hero', 'hatta-village', 'hatta-hero'], region: 'hatta', drive: { dubai: 80, abudhabi: 150 } },

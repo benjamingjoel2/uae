@@ -1,6 +1,19 @@
 # Images needed
 
-Every image slot on the site now has a correctly located photograph. All of them come from Wikimedia Commons under CC0, CC BY or CC BY-SA licences and are credited on `/credits/`. This file lists what to replace or add before launch.
+Every image slot on the site has a correctly located photograph. 20 are high-quality Unsplash photos (Unsplash License, no credit line needed). The home hero is the owner's photo. The rest come from Wikimedia Commons and are credited on `/credits/`. This file lists what to replace or add before launch.
+
+## Still Wikimedia, no confirmed free Unsplash alternative (upgrade first)
+The search covered free Unsplash photos whose page confirms the exact place. None was found for these slots, or none good enough:
+- `alain-hero` (Al Ain Oasis palms) and `alain-falaj` (Al Ain falaj)
+- `abudhabi-hosn` (Qasr Al Hosn): the only Unsplash option was a harsh midday shot dominated by towers
+- `sharjah-hero` (Heart of Sharjah) and `sharjah-museum` (Sharjah Art Foundation)
+- `ajman-hero` (Ajman / Umm Al Quwain mangroves)
+- `rak-hamra` (Jazirat Al Hamra)
+- `fujairah-hero` (Al Badiyah Mosque) and `fujairah-coast` (Fujairah Fort)
+- `sbi-hero` and `sbi-wildlife` (Sir Bani Yas Island): request images from the island's operator
+- `home-dawn` (Al Fahidi, used in the menu and the first sample journey) and `home-dusk` (Liwa sunset)
+
+Good next sources: the Department of Culture and Tourism Abu Dhabi and Dubai DET media libraries, Sharjah Commerce and Tourism, Visit Ras Al Khaimah, and Fujairah Tourism. All issue images for travel-trade use; check the terms.
 
 ## Venues (no venue photos are used yet)
 The site does not name real hotels, lodges, restaurants or cafés. The six stays on `/stays/` are **placeholder names**, each illustrated with a photo of the location (not of a venue). When real partners are confirmed, use only images you are clearly allowed to use:
