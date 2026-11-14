@@ -121,5 +121,131 @@
       "place": "Liwa Oasis, Al Dhafra, Abu Dhabi",
       "attribution": true
     }
+  },
+  "abudhabi-hero": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 35%",
+    "credit": {
+      "title": "Sheikh Zayed Grand Mosque @ Abu Dhabi (15856602738)",
+      "author": "Guilhem Vellut from Annecy, France",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sheikh_Zayed_Grand_Mosque_@_Abu_Dhabi_(15856602738).jpg",
+      "place": "Sheikh Zayed Grand Mosque, Abu Dhabi",
+      "attribution": true
+    }
+  },
+  "abudhabi-mosque-interior": {
+    "w": 1200,
+    "h": 933,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "50% 40%",
+    "credit": {
+      "title": "Abu dhabi, Moschea dello Sceicco Zayed, aula di preghiera, 04",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abu_dhabi,_Moschea_dello_Sceicco_Zayed,_aula_di_preghiera,_04.jpg",
+      "place": "Sheikh Zayed Grand Mosque prayer hall, Abu Dhabi",
+      "attribution": true
+    }
+  },
+  "abudhabi-hosn": {
+    "w": 1200,
+    "h": 800,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "70% 45%",
+    "credit": {
+      "title": "Qasr al Hosn",
+      "author": "Darthjipsu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Qasr_al_Hosn.jpg",
+      "place": "Qasr Al Hosn, Abu Dhabi",
+      "attribution": true
+    }
+  },
+  "abudhabi-louvre": {
+    "w": 1200,
+    "h": 800,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "40% 40%",
+    "credit": {
+      "title": "Louvre abu dhabi, interno, cortile coperto 02",
+      "author": "Francesco Bini",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Louvre_abu_dhabi,_interno,_cortile_coperto_02.jpg",
+      "place": "Louvre Abu Dhabi, Saadiyat Island",
+      "attribution": true
+    }
+  },
+  "stays-city": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "65% 45%",
+    "credit": {
+      "title": "Al Bastakiya 12",
+      "author": "EditQ",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Bastakiya_12.jpg",
+      "place": "Al Fahidi Historical Neighbourhood (Al Bastakiya), Bur Dubai, Dubai",
+      "attribution": true
+    }
+  },
+  "journal-ramadan": {
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2000
+    ],
+    "pos": "65% 50%",
+    "credit": {
+      "title": "Grand Mosque Of Sharjah",
+      "author": "Arrdl",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Grand_Mosque_Of_Sharjah.jpg",
+      "place": "Sharjah Mosque, Sharjah",
+      "attribution": true
+    }
   }
 }
