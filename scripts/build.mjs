@@ -14,6 +14,7 @@ const content = {};
 for (const loc of config.locales) content[loc] = (await import(`../src/content/${loc}.mjs`)).default;
 const images = existsSync(join(ROOT, 'src/data/images.json')) ? JSON.parse(readFileSync(join(ROOT, 'src/data/images.json'), 'utf8')) : {};
 const YEAR = new Date().getFullYear();
+const V = `?v=${config.imageVersion || 1}`;
 
 // ── Routes ──────────────────────────────────────────────────
 const placeByKey = Object.fromEntries(places.map((p) => [p.key, p]));
@@ -60,13 +61,13 @@ const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 // ── Images ──────────────────────────────────────────────────
 const alt = (loc, slot) => altText[loc]?.[slot] || altText.en?.[slot] || '';
-function srcset(slot, fmt) { const im = images[slot]; return im.widths.map((w) => `/img/${slot}-${w}.${fmt} ${w}w`).join(', '); }
+function srcset(slot, fmt) { const im = images[slot]; return im.widths.map((w) => `/img/${slot}-${w}.${fmt}${V} ${w}w`).join(', '); }
 function pic(slot, loc, { sizes = '100vw', eager = false, cls = '', altOverride } = {}) {
   const im = images[slot];
   const a = esc(altOverride ?? alt(loc, slot));
   if (!im) return `<div class="ph-missing" role="img" aria-label="${a}" style="width:100%;height:100%;background:var(--sand)"></div>`;
   const mid = im.widths.find((w) => w >= 1200) || im.widths[im.widths.length - 1];
-  return `<picture${cls ? ` class="${cls}"` : ''}><source type="image/avif" srcset="${srcset(slot, 'avif')}" sizes="${sizes}"><source type="image/webp" srcset="${srcset(slot, 'webp')}" sizes="${sizes}"><img src="/img/${slot}-${mid}.webp" width="${im.w}" height="${im.h}" alt="${a}" ${eager ? 'fetchpriority="high" decoding="async"' : 'loading="lazy" decoding="async"'} style="object-position:${im.pos || '50% 50%'}"></picture>`;
+  return `<picture${cls ? ` class="${cls}"` : ''}><source type="image/avif" srcset="${srcset(slot, 'avif')}" sizes="${sizes}"><source type="image/webp" srcset="${srcset(slot, 'webp')}" sizes="${sizes}"><img src="/img/${slot}-${mid}.webp${V}" width="${im.w}" height="${im.h}" alt="${a}" ${eager ? 'fetchpriority="high" decoding="async"' : 'loading="lazy" decoding="async"'} style="object-position:${im.pos || '50% 50%'}"></picture>`;
 }
 const ph = (slot, loc, ratio, opts = {}) => `<div class="ph ${ratio || ''} ${opts.phCls || ''}">${pic(slot, loc, opts)}</div>`;
 const preload = (slot, sizes = '100vw') => (images[slot] ? `<link rel="preload" as="image" type="image/avif" imagesrcset="${srcset(slot, 'avif')}" imagesizes="${sizes}" fetchpriority="high">` : '');
@@ -139,7 +140,7 @@ function orgLd(loc, L) {
     '@context': 'https://schema.org', '@type': 'TravelAgency', '@id': config.siteUrl + '/#org',
     name: config.brand.name, alternateName: config.brand.nameArabic, url: config.siteUrl + '/', email: config.email,
     description: strip(tokens(L.meta.home.description)),
-    logo: config.siteUrl + '/favicon.svg', image: images['home-dawn'] ? `${config.siteUrl}/img/home-dawn-1200.webp` : undefined,
+    logo: config.siteUrl + '/favicon.svg', image: images['home-dawn'] ? `${config.siteUrl}/img/home-dawn-1200.webp${V}` : undefined,
     address: { '@type': 'PostalAddress', streetAddress: `${config.address.venue}, ${config.address.street}`, addressLocality: config.address.city, addressRegion: config.address.area + ', ' + config.address.city, addressCountry: config.address.countryCode },
     areaServed: { '@type': 'Country', name: 'United Arab Emirates' }, availableLanguage: ['en', 'fr', 'de', 'es'],
   };
@@ -153,7 +154,7 @@ function page({ loc, key, body, heroSlot, heroSizes, over = false, extraLd = [],
   const canonical = r ? abs(url(loc, key)) : null;
   const alts = r ? config.locales.map((l) => `<link rel="alternate" hreflang="${l}" href="${abs(url(l, key))}">`).join('') + `<link rel="alternate" hreflang="x-default" href="${abs(url(config.defaultLocale, key))}">` : '';
   const ld = [orgLd(loc, L), ...extraLd];
-  const og = heroSlot && images[heroSlot] ? `${config.siteUrl}/img/${heroSlot}-1200.webp` : (images['home-dawn'] ? `${config.siteUrl}/img/home-dawn-1200.webp` : '');
+  const og = heroSlot && images[heroSlot] ? `${config.siteUrl}/img/${heroSlot}-1200.webp${V}` : (images['home-dawn'] ? `${config.siteUrl}/img/home-dawn-1200.webp${V}` : '');
   return `<!doctype html>
 <html lang="${loc}">
 <head>
@@ -304,7 +305,7 @@ ${dune()}
   </div>
 </section>
 <a class="next" href="${url(loc, next.key)}">${ph(next.hero, loc, '', { sizes: '100vw', altOverride: '' })}<div class="next__txt">${eyebrow(esc(L.ui.nextPlace), next.ar)}<p class="next__t">${esc(L.nav[next.key])}</p></div></a>`;
-  const ld = [{ '@context': 'https://schema.org', '@type': 'TouristDestination', name: L.nav[p.key], description: strip(tokens(L.meta[p.key].description)), url: abs(url(loc, p.key)), image: images[p.hero] ? `${config.siteUrl}/img/${p.hero}-1200.webp` : undefined, containedInPlace: { '@type': 'Country', name: 'United Arab Emirates' } },
+  const ld = [{ '@context': 'https://schema.org', '@type': 'TouristDestination', name: L.nav[p.key], description: strip(tokens(L.meta[p.key].description)), url: abs(url(loc, p.key)), image: images[p.hero] ? `${config.siteUrl}/img/${p.hero}-1200.webp${V}` : undefined, containedInPlace: { '@type': 'Country', name: 'United Arab Emirates' } },
     { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: L.ui.breadcrumbHome, item: abs(url(loc, 'home')) }, { '@type': 'ListItem', position: 2, name: L.nav[p.key], item: abs(url(loc, p.key)) }] }];
   return page({ loc, key: p.key, body, heroSlot: p.hero, over: true, extraLd: ld });
 }

@@ -60,6 +60,9 @@ export const config = {
     arabic: '"Amiri", "Geeza Pro", "Noto Naskh Arabic", serif',
   },
 
+  // Bump when images are re-processed: image files are cached for a year, so URLs carry ?v=N.
+  imageVersion: 2,
+
   locales: ['en', 'fr', 'de', 'es'],
   defaultLocale: 'en',
 };

@@ -600,13 +600,13 @@ export default {
   credits: {
     eyebrow: 'Créditos',
     title: 'Créditos fotográficos',
-    lead: 'Las siguientes fotografías se utilizan con licencias Creative Commons o de dominio público. Nuestro agradecimiento a sus autores.',
+    lead: 'Todas las fotografías de este sitio han sido corregidas de color por Barjeel Journeys para que el conjunto comparta una misma paleta. Las fotografías Creative Commons de abajo están modificadas a partir de los originales que se citan; nuestras adaptaciones de fotografías con licencia CC BY-SA se comparten bajo la misma licencia.',
     photo: 'Foto',
     by: 'de',
     licence: 'Licencia',
     source: 'Fuente',
     usedOn: 'Muestra',
-    none: 'El resto de fotografías de este sitio se utilizan con licencias que no exigen atribución.',
+    none: 'Las demás fotografías se usan bajo la licencia de Unsplash, que permite editarlas y no exige atribución. Se han corregido de color del mismo modo. La fotografía de Qasr Al Watan de la página de inicio nos fue facilitada y se muestra sin editar, salvo el cambio de tamaño.',
   },
 
   notFound: {

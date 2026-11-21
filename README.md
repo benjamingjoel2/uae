@@ -71,7 +71,17 @@ To add or replace photos:
 2. Install sharp: `npm i -D sharp`.
 3. Run `npm run images -- path/to/folder`.
 
-Creative Commons photos are credited automatically on `/credits/`. Unsplash photos carry no credit line. Venue photos follow the rules in `IMAGES-NEEDED.md`.
+Creative Commons photos are credited automatically on `/credits/`.
+### Colour grade
+
+Every photo except the home-page hero goes through one colour grade, so the set shares a warm, muted palette. To grade a new photo before adding it:
+
+```bash
+python3 scripts/grade.py source.jpg graded/slot-name.jpg
+```
+
+Use `--night` for blue-hour or night shots (they get a lighter version). Then run `npm run images -- graded --force` and raise `imageVersion` in `src/config.mjs`. Image files are cached for a year, so the version number in their URLs makes browsers fetch the new ones. The credits page explains that the photos are colour-graded and lists the Creative Commons originals.
+ Unsplash photos carry no credit line. Venue photos follow the rules in `IMAGES-NEEDED.md`.
 
 The Arabic label font is subset to the characters the site uses. If you add new Arabic words, regenerate it with `npm run fonts -- path/to/amiri-arabic-400-normal.woff2`. This needs Python `fonttools` and `brotli`.
 
